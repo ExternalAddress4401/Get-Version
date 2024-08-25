@@ -3,7 +3,9 @@ description: "Edits portions of the APK"
 inputs: {}
 outputs:
   version:
-    description: "The newest version available"
+    description: The newest version available
+  data-url:
+    description: The data URL of the requested resource
 runs:
   using: "node20"
   main: "index.js"
